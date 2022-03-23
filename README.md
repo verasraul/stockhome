@@ -1,4 +1,53 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using [clean-cra Template](https://github.com/JorgePasco1/cra-template-clean-cra).
+# StockHome 
+
+### "The market is your market"
+
+"StockHome" is a single page web-app where users can browse stocks . The data/information will be displayed to the users via flash cards on the screen. The flash cards will show the most current news headlines in a random order. A user will be able to swipe back and forth between flash cards to view information from different sources, scroll up/down inside the flash cards to read through the headlines of each article and by clicking on the news headline, users will be taken to the source of the full article.
+
+
+## 📌 Features 📌
+
+- Search feature (search stocks by ticker).
+- View news reports from multiple sources in a single page.
+- View/follow sources where articles were reported from.
+- Adaptive horizontal scrolling for search results.
+- Adaptive vertical scrolling for article results.
+
+
+## 🖌️ Wireframe 🖌️
+[App wireframe on Figma](https://www.figma.com/)
+
+
+## 🔄 API 🔃
+This project utilizes the following APIs:
+| NEWS API | 
+| ----- | 
+| [![News API logo](src/img/logos/newsAPI.png)](https://newsapi.org/) | 
+| Search worldwide news with code. Locate articles and breaking news headlines from news sources and blogs across the web with our JSON API. News API is a simple HTTP REST API for searching and retrieving live articles from all over the web. |  
+
+
+## 🗓 What's next? 💭
+These are some additional features we would like to add:
+- User Auth(Sign-in/Sign-up/Auth view).
+- Customized search views.
+- Add personalized home pages for subscribed users.
+- Allow users to feed stock news from a 3rd-party source.
+- 
+
+
+## 🔖 Resources 🔖
+NewsTrack app was created with the help of these resources
+1. [Coolors](https://coolors.co/)
+2. [Figma](https://www.figma.com/community)
+3. [News API Docs](https://newsapi.org/docs)
+
+
+### Contact info
+| **Raul Veras** |
+| ----- | 
+| [![LinkedIn](src/img/logos/linkedin-logo.svg)](https://www.linkedin.com/in/verasraul/ "LinkedIn") |
+|  [![GitHub](src/img/logos/github-logo.svg)](https://github.com/verasraul)  |
 
 ## Available Scripts
 
