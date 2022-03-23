@@ -2,7 +2,7 @@
 
 ### "The World Market$ in Your Hands"
 
-"StockHome" is a single page web-app where users can browse stocks and view their information to help them with them trading needs. User will be able to log on the page and search for a stock by ticker. User will also be able to see the most active stocks in the homepage.
+"StockHome" is a single page web-app where users can browse stocks and view their information to help them with them trading needs. User will be able to vist the website and search for a stock by ticker. User will also be able to see the most active stocks in the homepage.
 
 
 ## 📌 Features 📌
