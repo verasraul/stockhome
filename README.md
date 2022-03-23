@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using [clean-cra Template](https://github.com/JorgePasco1/cra-template-clean-cra).
 # StockHome 
 
-### "Wordl Market$ in Your Hands"
+### "The World's Market$ in Your Hands"
 
 "StockHome" is a single page web-app where users can browse stocks . The data/information will be displayed to the users via flash cards on the screen. The flash cards will show the most current news headlines in a random order. A user will be able to swipe back and forth between flash cards to view information from different sources, scroll up/down inside the flash cards to read through the headlines of each article and by clicking on the news headline, users will be taken to the source of the full article.
 
@@ -31,7 +31,7 @@ This project utilizes the following APIs:
 These are some additional features we would like to add:
 - User Auth(Sign-in/Sign-up/Auth view).
 - Customized search views.
-- Add personalized home pages for subscribed users.
+- Ability for users to personalize their homepages for subscribed users.
 - Allow users to feed stock news from a 3rd-party source.
 - 
 
@@ -40,7 +40,7 @@ These are some additional features we would like to add:
 NewsTrack app was created with the help of these resources
 1. [Coolors](https://coolors.co/)
 2. [Figma](https://www.figma.com/community)
-3. [News API Docs](https://newsapi.org/docs)
+3. [iex Cloud API](https://iexcloud.zendesk.com/hc/en-us/articles/1500012489741-How-to-Use-the-IEX-Cloud-API)
 
 
 ### Contact info
