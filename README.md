@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using [clean-cra Template](https://github.com/JorgePasco1/cra-template-clean-cra).
 # StockHome 
 
-### "The World's Market$ in Your Hands"
+### "The World Market$ in Your Hands"
 
 "StockHome" is a single page web-app where users can browse stocks and view their information to help them with them trading needs. User will be able to log on the page and search for a stock by ticker. User will also be able to see the most active stocks in the homepage.
 
