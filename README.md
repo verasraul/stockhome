@@ -43,7 +43,7 @@ NewsTrack app was created with the help of these resources
 ### Contact info
 | **Raul Veras** |
 | ----- | 
-| [![LinkedIn] (src/img/linkedin-logo.svg)(https://www.linkedin.com/in/verasraul/ "LinkedIn") |
+| [![LinkedIn](src/img/linkedin-logo.svg)(https://www.linkedin.com/in/verasraul/ "LinkedIn") |
 | [![GitHub](src/img/github-logo.svg)](https://github.com/verasraul)  |
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using [clean-cra Template](https://github.com/JorgePasco1/cra-template-clean-cra).
