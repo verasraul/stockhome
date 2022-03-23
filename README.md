@@ -2,7 +2,7 @@
 
 ### "The World Market$ in Your Hands"
 
-"StockHome" is a single page web-app where users can browse stocks and view their information to help them with them trading needs. User will be able to vist the website and search for a stock by ticker. User will also be able to see the most active stocks in the homepage.
+"StockHome" is a single page web-app where users can browse stocks and view their information to help them with their trading needs. Users will be able to vist the website and search for a stock by ticker. User will also be able to see the most active stocks in the homepage.
 
 
 ## 📌 Features 📌
@@ -16,12 +16,14 @@
 [App wireframe on Figma](https://www.figma.com/)
 
 
-## 🔄 API 🔃
+## 🔄 API 🔄
 This project utilizes the following APIs:
 | iexCloud API | 
 | ----- | 
 | [![iex Cloud API](src/img/iexCloudLogo.png)](https://iexcloud.zendesk.com/hc/en-us/articles/1500012489741-How-to-Use-the-IEX-Cloud-API) | 
-| Search worldwide news with code. Locate articles and breaking news headlines from news sources and blogs across the web with our JSON API. News API is a simple HTTP REST API for searching and retrieving live articles from all over the web. |  
+| IEX Cloud is an easy-to-use financial data platform that makes a wide range of data accessible in one place. We built IEX Cloud to make financial data accessible to everyone, from individual developers to large businesses.  
+
+Get stock prices, fundamentals, forex data, crypto data, and more all through a single API and a single IEX Cloud subscription, with flexible plans designed to fit your use case. |  
 
 
 ## 🗓 What's next? 💭
