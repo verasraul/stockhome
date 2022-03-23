@@ -21,7 +21,7 @@ This project utilizes the following APIs:
 | iexCloud API | 
 | ----- | 
 | [![iex Cloud API](src/img/iexCloudLogo.png)](https://iexcloud.zendesk.com/hc/en-us/articles/1500012489741-How-to-Use-the-IEX-Cloud-API) | 
-| IEX Cloud is an easy-to-use financial data platform that makes a wide range of data accessible in one place. We built IEX Cloud to make financial data accessible to everyone, from individual developers to || large businesses. Get stock prices, fundamentals, forex data, crypto data, and more all through a single API and a single IEX Cloud subscription, with flexible plans designed to fit your use case. |  
+| IEX Cloud is an easy-to-use financial data platform that makes a wide range of data accessible in one place. We built IEX Cloud to make financial data accessible to everyone, from individual developers to large businesses. Get stock prices, fundamentals, forex data, crypto data, and more all through a single API and a single IEX Cloud subscription, with flexible plans designed to fit your use case. |  
 
 
 ## 🗓 What's next? 💭
