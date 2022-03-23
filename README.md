@@ -1,4 +1,4 @@
-# StockHome 
+# $tockHome 
 
 ### "The World Market$ in Your Hands"
 
@@ -6,7 +6,6 @@
 
 
 ## 📌 Features 📌
-
 - Search feature (search stocks by ticker).
 - View news reports from multiple sources in a single page.
 - View share prices.
