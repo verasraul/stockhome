@@ -21,9 +21,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## 🔄 API 🔃
 This project utilizes the following APIs:
-| NEWS API | 
+| iexCloud API | 
 | ----- | 
-| [![News API logo](src/img/logos/newsAPI.png)](https://newsapi.org/) | 
+| [![News API logo](src/img/logos/newsAPI.png)](https://iexcloud.zendesk.com/hc/en-us/articles/1500012489741-How-to-Use-the-IEX-Cloud-API) | 
 | Search worldwide news with code. Locate articles and breaking news headlines from news sources and blogs across the web with our JSON API. News API is a simple HTTP REST API for searching and retrieving live articles from all over the web. |  
 
 
