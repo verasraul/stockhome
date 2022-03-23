@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using [clean-cra Template](https://github.com/JorgePasco1/cra-template-clean-cra).
 # StockHome 
 
-### "The market is your market"
+### "Wordl Market$ in Your Hands"
 
 "StockHome" is a single page web-app where users can browse stocks . The data/information will be displayed to the users via flash cards on the screen. The flash cards will show the most current news headlines in a random order. A user will be able to swipe back and forth between flash cards to view information from different sources, scroll up/down inside the flash cards to read through the headlines of each article and by clicking on the news headline, users will be taken to the source of the full article.
 
