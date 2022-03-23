@@ -3,16 +3,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### "The World's Market$ in Your Hands"
 
-"StockHome" is a single page web-app where users can browse stocks . The data/information will be displayed to the users via flash cards on the screen. The flash cards will show the most current news headlines in a random order. A user will be able to swipe back and forth between flash cards to view information from different sources, scroll up/down inside the flash cards to read through the headlines of each article and by clicking on the news headline, users will be taken to the source of the full article.
+"StockHome" is a single page web-app where users can browse stocks and view their information to help them with them trading needs. User will be able to log on the page and search for a stock by ticker. User will also be able to see the most active stocks in the homepage.
 
 
 ## 📌 Features 📌
 
 - Search feature (search stocks by ticker).
 - View news reports from multiple sources in a single page.
-- View/follow sources where articles were reported from.
-- Adaptive horizontal scrolling for search results.
-- Adaptive vertical scrolling for article results.
+- View share prices.
+- Adaptive screen for mobile.
 
 
 ## 🖌️ Wireframe 🖌️
@@ -23,7 +22,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 This project utilizes the following APIs:
 | iexCloud API | 
 | ----- | 
-| [![News API logo](src/img/logos/newsAPI.png)](https://iexcloud.zendesk.com/hc/en-us/articles/1500012489741-How-to-Use-the-IEX-Cloud-API) | 
+| [![iex Cloud API](src/img/iexCloudLogo.png)](https://iexcloud.zendesk.com/hc/en-us/articles/1500012489741-How-to-Use-the-IEX-Cloud-API) | 
 | Search worldwide news with code. Locate articles and breaking news headlines from news sources and blogs across the web with our JSON API. News API is a simple HTTP REST API for searching and retrieving live articles from all over the web. |  
 
 
@@ -33,7 +32,7 @@ These are some additional features we would like to add:
 - Customized search views.
 - Ability for users to personalize their homepages for subscribed users.
 - Allow users to feed stock news from a 3rd-party source.
-- 
+ 
 
 
 ## 🔖 Resources 🔖
