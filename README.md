@@ -13,7 +13,7 @@
 
 
 ## 🖌️ Wireframe 🖌️
-[App wireframe on Figma](https://www.figma.com/)
+[App wireframe on Google Slides](https://docs.google.com/presentation/d/1aO2FDeF1HYN34vu-6o-_JLQNvkhK1qKB5JyhC5YJEsY/edit?usp=sharing)
 
 
 ## 🔄 API 🔄
