@@ -6,6 +6,7 @@ import SearchResults from './components/SearchResults';
 import { Search } from './services/Constants';
 import SearchStocks from './components/SearchStocks';
 import StockList from './components/StockList';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -28,7 +29,9 @@ function App() {
         <Route path='search' element={<SearchResults /> } />
         <Route path='random' element={<RandomStock /> } />
       </Routes>
-     
+      </div>
+      <div className='Footer'>
+        <Footer />
       </div>
 
 
