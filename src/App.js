@@ -17,7 +17,7 @@ function App() {
         <nav>
           <NavLink to={"/"} >Home</NavLink>
           <NavLink to={"/search"} >Search-Stocks</NavLink>
-          <NavLink to={"/random"} >Random-Stock</NavLink>
+          {/* <NavLink to={"/random"} >Random-Stock</NavLink> */}
         </nav>  
       </div>
 
