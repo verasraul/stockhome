@@ -21,23 +21,21 @@ export default function RandomStock(){
       fetchData()
     }, [])
 
-    // let handleButton = function() {
-    //   return(
-    //       <StockList stock={stocks} /> 
-    //   )
-    // }
+    let handleButton = function() {
+      return(
+          <StockList stock={stocks} /> 
+      )
+    };
     
 
     return(
-          <div>
-          {/* <div> <ul>{ stocks }</ul> </div> */}
+          <div className='random'>
           <br></br>
-          {/* <button onClick={function() {
-            <StockList stock={stocks} />
-          }}>
+          <button onClick={handleButton}
+          >
             Generate Stock
-          </button> */}
-          <StockList stock={stocks} />
+          </button>
+          {/* <StockList stock={stocks} /> */}
         </div>
     )
 }

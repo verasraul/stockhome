@@ -184,6 +184,13 @@ margin-right:10px;
   }
 
 
+  /* Random Page */
+/* .random{
+  display: none; 
+  block: none;
+} */
+
+
 .Footer{
   position: fixed;
   left: 0;

@@ -16,13 +16,14 @@ export default function StockList(props){
 
     return (
       <div className="stock-info"> 
+    
+
+        <div className="price">
         <div className="name">
               <h1>{ stock.companyName} {stock.symbol}</h1>
         </div>
-
-        <div className="price">
               <h3>Opening Price: { stock.open }</h3>
-              <h3>Closing Price: { stock.close}</h3>
+              <h3>Calculation Price: { stock.calculationPrice}</h3>
               <div className='open-price' style={{backgroundColor:backGroundColor(stock.open)}}>
               <p>Last Price($): { stock.latestPrice }</p>
               </div>

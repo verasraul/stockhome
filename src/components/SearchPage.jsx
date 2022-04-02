@@ -60,15 +60,15 @@ export default function SearchPage(){
     
     return (
         <div className="search-page">
-          <h1>This is the SearchStock Section</h1>
+          <h1>Find Your Favorite $tock</h1>
         <br></br>
         <div className="search-section">
         <div>
-            <label htmlFor="search-stock">Search by Company Name: </label>
+            {/* <label htmlFor="search-stock">Search by Ticker Name: </label> */}
             <br></br>
             <br></br>
               <form>
-              <input type="text" value={stockName} onChange={event => handleStockChange(event.target.value)} id="search-pane-input" placeholder="Search for Company"/>
+              <input type="text" value={stockName} onChange={event => handleStockChange(event.target.value)} id="search-pane-input" placeholder="Ticker name (fb, ibm, etc.)"/>
             {/* <div className="button-div">
               <button type="submit" >Search Ticker</button>
             </div> */}
