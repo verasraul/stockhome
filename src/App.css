@@ -120,6 +120,9 @@ button:active {
 
 
 /* Search Stocks Page */
+.search-page{
+  color: #000000;
+}
 .input{
   justify-content: center;
 
@@ -151,15 +154,15 @@ display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
 background-color: black;
-border: 1px solid red;
+border: 1px solid blue;
 margin: 10px;
-padding:10px;
+padding:20px;
 color: white;
 }
 .name{
 margin: auto;
-
 }
+
 .price{
 margin: auto;
 }
@@ -191,4 +194,6 @@ margin-right:10px;
   height: 80px;
   margin-top: 65px;
   background-color: rgb(84, 84, 232);
+  color: black;
+  
   }

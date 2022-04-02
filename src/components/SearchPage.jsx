@@ -4,7 +4,7 @@ import StockList from "./StockList";
 import { Search } from "../services/Constants";
 
 
-export default function SearchResults(){
+export default function SearchPage(){
     // inittialize the ticker list to the full list passed in props
     const [stockSearch, setStockSearch] = useState([])
     const [stockName, setStockName] = useState('')
@@ -59,7 +59,7 @@ export default function SearchResults(){
 
     
     return (
-        <div>
+        <div className="search-page">
           <h1>This is the SearchStock Section</h1>
         <br></br>
         <div className="search-section">
