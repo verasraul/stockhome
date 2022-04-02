@@ -1,22 +1,19 @@
-*{
+/* *{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-}
+} */
 
 .App {
   text-align: center;
   justify-content: center;
-  /* background-color: lightgrey; */
+  background-color: lightgrey;
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   height: 100vh;
 }
 
-.body{
-  
-}
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -137,7 +134,6 @@ flex-direction: column;
 flex-wrap: wrap;
 justify-content: center;
 width: 50%;
-background-color:black;
 padding-bottom:2px;
 }
 
@@ -154,29 +150,45 @@ color: white;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
+background-color: black;
 border: 1px solid red;
 margin: 10px;
 padding:10px;
 color: white;
 }
 .name{
-text-align: left;
+margin: auto;
+
+}
+.price{
+margin: auto;
 }
 .up-down{
-
 padding:1px;
-
 border-radius: 15px;
 }
 .up-down p{
 margin-left:10px;
 margin-right:10px;
 }
+.open-price{
+  padding:1px;
+  border-radius: 15px;
+  }
+  .open-price p{
+  margin-left:10px;
+  margin-right:10px;
+  }
+
 
 .Footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
   text-align: center;
+  padding-top: 2%;
   height: 80px;
   margin-top: 65px;
   background-color: rgb(84, 84, 232);
-
   }

@@ -69,9 +69,9 @@ export default function SearchResults(){
             <br></br>
               <form>
               <input type="text" value={stockName} onChange={event => handleStockChange(event.target.value)} id="search-pane-input" placeholder="Search for Company"/>
-            <div className="button-div">
+            {/* <div className="button-div">
               <button type="submit" >Search Ticker</button>
-            </div>
+            </div> */}
             </form>
         </div>
     </div>

@@ -11,7 +11,7 @@ export default function SearchStocks(props){
 return (
     <div className="search-section">
         <div>
-            <label htmlFor="search-gif">Search by Company Name: </label>
+            <label htmlFor="search-stock">Search by Company Name: </label>
             <br></br>
             <br></br>
             <input type="text" value={props.value} onChange={props.onChange} id="search-pane-input" placeholder="Search for Company"/>

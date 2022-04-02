@@ -4,12 +4,12 @@ import { FB } from '../services/Constants';
 
 
 export default function RandomStock(){
-    const [stocks, setStocks] = useState([]);
+    const [stocks, setStocks] = useState([])
 
     const fetchData = async () => {
         try {
           const response = await FB();
-          setStocks(response.data);
+          setStocks(response);
           console.log(setStocks);
         } catch (error) {
           console.log(error);
@@ -18,24 +18,26 @@ export default function RandomStock(){
     console.log(fetchData);
 
     useEffect( () => {
-      fetchData(stocks);
-    }, [stocks])
+      fetchData()
+    }, [])
 
-    const handleButton = () => {
-      return(
-          <StockList stock={stocks} /> 
-      )
-    }
+    // let handleButton = function() {
+    //   return(
+    //       <StockList stock={stocks} /> 
+    //   )
+    // }
     
 
     return(
           <div>
           {/* <div> <ul>{ stocks }</ul> </div> */}
           <br></br>
-          <button onClick={() => (handleButton)}>
+          {/* <button onClick={function() {
+            <StockList stock={stocks} />
+          }}>
             Generate Stock
-          </button>
-          
+          </button> */}
+          <StockList stock={stocks} />
         </div>
     )
 }
