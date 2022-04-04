@@ -1,41 +1,54 @@
 import { useState, useEffect } from 'react';
 import StockList from './StockList';
-import { FB } from '../services/Constants';
+import { Symbols, Search } from '../services/Constants';
+
 
 
 export default function RandomStock(){
     const [stocks, setStocks] = useState([])
+    const [symbols, setSymbols] = useState([])
 
-    const fetchData = async () => {
+    const fetchQuote = async (symbol) => {
         try {
-          const response = await FB();
+          const response = await Search(symbol);
           setStocks(response);
           console.log(setStocks);
         } catch (error) {
           console.log(error);
         }
       }
-    console.log(fetchData);
-
-    useEffect( () => {
-      fetchData()
-    }, [])
+    
+    // calles fetchSymbols endpoing and stores data in state
+    const fetchSybmols = async () => {
+      try {
+        const response = await Symbols();
+        setSymbols(response);
+      } catch(error) {
+        console.log(error);
+      }
+    }
+    
+    // useEffect() will get called on load
+    useEffect( () => { 
+      fetchSybmols() //when component loads is making a call to fetchSymbols
+    }, []) // empty array as the 2nd useEffet arg runs the useEffect once on load
 
     let handleButton = function() {
-      return(
-          <StockList stock={stocks} /> 
-      )
+      // when user clicks button, we are genenerating a randon integer to use that to call object index
+      const index = Math.floor(Math.random() * symbols.length);
+      // once we have the object index we pass the index.symbol value to the fetchQuote func as the arg
+      fetchQuote(symbols[index].symbol)
     };
     
 
     return(
           <div className='random'>
+            <h1>Generate a Random Ticker</h1>
           <br></br>
           <button onClick={handleButton}
-          >
-            Generate Stock
+          > Generate Random Stock
           </button>
-          {/* <StockList stock={stocks} /> */}
+          <StockList stock={stocks} />
         </div>
     )
 }

@@ -1,15 +1,16 @@
 import axios from "axios";
 
 
-
-export async function FB(){
-    const Result = await axios.get(`https://cloud.iexapis.com/stable/stock/FB/quote?token=${process.env.REACT_APP_STOCKAPI_KEY}`)
+// https://cloud.iexapis.com/stable/ref-data/symbols?token=${process.env.REACT_APP_STOCKAPI_KEY}`
+export async function Symbols(){
+    const Result = await axios.get(`https://cloud.iexapis.com/stable/ref-data/symbols?token=${process.env.REACT_APP_STOCKAPI_KEY}`)
     .then(({ data }) => {
         return data;
       });
       return Result;
     
 }
+
 
 
 // `https://cloud.iexapis.com/stable/stock/${searchterm}/quote?token=${process.env.REACT_APP_STOCKAPI_KEY}`
