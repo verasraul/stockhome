@@ -2,6 +2,7 @@ import RandomStock from "./RandomStock";
 import Footer from "./Footer";
 import img from '../images/TickersPic.jpeg'
 
+
 const Home = (props) => {
   return (
     <div className="home">
@@ -13,12 +14,12 @@ const Home = (props) => {
       <section className="flip-card">
         <div className="inner">
           <div className="front">
-            <img src= {img}
+            <img src= 'https://i.postimg.cc/jqHwtqFg/Tickers-Pic.jpg'
               alt="It's time to invest"
             />
           </div>
           <div className="back">
-              {/* <img src={RandomStock} /> */}
+              <img src='https://i.postimg.cc/Dz1FL0sR/pexels-burak-kebapci-186461.jpg' />
               {/* <RandomStock /> */}
           </div>
         </div>

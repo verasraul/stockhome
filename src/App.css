@@ -81,7 +81,7 @@ button:active {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .home section {
   margin: auto;
@@ -121,13 +121,13 @@ button:active {
   transform: rotateY(180deg);
 }
 /* Position the front and back side */
-/* .front,
+.front,
 .back {
   position: absolute;
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
-} */
+}
 /* Style the front side (fallback if image is missing) */
 .front {
   color: black;
@@ -136,6 +136,7 @@ button:active {
 .back {
   transform: rotateY(180deg);
 }
+
 
 
 /* Search Stocks Page */
