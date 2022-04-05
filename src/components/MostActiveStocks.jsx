@@ -18,16 +18,15 @@ export default function MostActiveStocks() {
             console.log(error);
         }
     }
-
-
-
-
+    useEffect(() => {
+        fetchMostActiveStocks():
+    }, [])
 
 
 
     return(
         <div>
-            <MostActiveList activeStocks={mostActivStocks}
+            <MostActiveList activeStocks={mostActivStocks} />
         </div>
     )
 }
