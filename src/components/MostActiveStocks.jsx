@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
-import { MostActiveStocks } from '../services/Constants';
+import { MostActiveStocks } from '../services/Constants':
+import MostActiveList from './MostActiveList';
 
 
 
@@ -21,8 +22,12 @@ export default function MostActiveStocks() {
 
 
 
+
+
+
     return(
-        <div className='most-active-stocks'>
+        <div>
+            <MostActiveList activeStocks={mostActivStocks}
         </div>
     )
 }
