@@ -22,7 +22,7 @@ export async function Search(searchterm){
 
 
 
-export async function MostActiveStocks(){
+export async function MostActive(){
   const Result = await axios.get(`https://cloud.iexapis.com/stable/stock/market/collection/list?collectionName=mostactive&token=${process.env.REACT_APP_STOCKAPI_KEY}`)
   .then(({data}) => {
     return data;

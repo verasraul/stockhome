@@ -1,32 +1,32 @@
 import { useState, useEffect } from 'react';
-import { MostActiveStocks } from '../services/Constants':
+import { MostActive } from '../services/Constants';
 import MostActiveList from './MostActiveList';
 
 
 
 export default function MostActiveStocks() {
-    const [mostActivStocks, setMostActiveStocks] = useState([]);
+    const [mostActiveStocks, setMostActiveStocks] = useState([]);
 
 
     // call MostActiveStock endpoint and store data in state.
     const fetchMostActiveStocks = async () => {
         try {
-            const response = await MostActiveStocks();
+            const response = await MostActive();
             setMostActiveStocks(response);
             console.log(setMostActiveStocks);
         } catch (error){
             console.log(error);
         }
     }
-    useEffect(() => {
-        fetchMostActiveStocks():
+    useEffect( () => {
+        fetchMostActiveStocks();
     }, [])
 
 
 
     return(
         <div>
-            <MostActiveList activeStocks={mostActivStocks} />
+            <MostActiveList activeStocks={mostActiveStocks} />
         </div>
     )
 }
