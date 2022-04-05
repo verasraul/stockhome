@@ -1,7 +1,7 @@
 import axios from "axios";
 
 
-// https://cloud.iexapis.com/stable/ref-data/symbols?token=${process.env.REACT_APP_STOCKAPI_KEY}`
+
 export async function Symbols(){
     const Result = await axios.get(`https://cloud.iexapis.com/stable/ref-data/symbols?token=${process.env.REACT_APP_STOCKAPI_KEY}`)
     .then(({ data }) => {
@@ -12,7 +12,6 @@ export async function Symbols(){
 
 
 
-// `https://cloud.iexapis.com/stable/stock/${searchterm}/quote?token=${process.env.REACT_APP_STOCKAPI_KEY}`
 export async function Search(searchterm){
     const SearchResult = await axios.get(`https://cloud.iexapis.com/stable/stock/${searchterm}/quote?token=${process.env.REACT_APP_STOCKAPI_KEY}`)
     .then(({ data }) => {
@@ -20,6 +19,7 @@ export async function Search(searchterm){
       });
       return SearchResult;
 }
+
 
 
 export async function MostActiveStocks(){

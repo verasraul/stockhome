@@ -18,7 +18,7 @@ export default function RandomStock(){
         }
       }
     
-    // calles fetchSymbols endpoing and stores data in state
+    // calls fetchSymbols endpoint and stores the data in state
     const fetchSybmols = async () => {
       try {
         const response = await Symbols();
@@ -31,7 +31,7 @@ export default function RandomStock(){
     // useEffect() will get called on load
     useEffect( () => { 
       fetchSybmols() //when component loads is making a call to fetchSymbols
-    }, []) // empty array as the 2nd useEffet arg runs the useEffect once on load
+    }, []) // empty array as the 2nd useEffect argument runs the useEffect once on load
 
     let handleButton = function() {
       // when user clicks button, we are genenerating a randon integer to use that to call object index
