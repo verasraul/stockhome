@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import SearchStocks from "./SearchStocks";
+import SearchInput from "./SearchInput";
 import StockList from "./StockList";
 import { Search } from "../services/Constants";
 

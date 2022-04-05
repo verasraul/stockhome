@@ -4,7 +4,7 @@ import Home from './components/Home';
 import RandomStock from './components/RandomStock';
 import SearchPage from './components/SearchPage';
 import { Search } from './services/Constants';
-import SearchStocks from './components/SearchStocks';
+import SearchInput from './components/SearchInput';
 import StockList from './components/StockList';
 import Footer from './components/Footer';
 

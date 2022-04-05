@@ -1,5 +1,5 @@
 
-export default function SearchStocks(props){ 
+export default function SearchInput(props){ 
 
     // const handelInput = (str) =>{
     //     str = str.toUpperCase()
