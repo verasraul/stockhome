@@ -1,3 +1,4 @@
+import { Box } from "@mui/material"
 
 
 
@@ -15,7 +16,8 @@ export default function StockList(props){
   const stock = props.stock
 
     return (
-      <div className="stock-info"> 
+      <Box sx={{display:"flex",justifyContent:'center'}}>
+      <div className="stock-info" style={{width:'40%'}}> 
     
 
         <div className="price">
@@ -33,5 +35,6 @@ export default function StockList(props){
                 </div>
         </div>
       </div>
+      </Box>
     )
   }

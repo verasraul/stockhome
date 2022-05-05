@@ -9,20 +9,47 @@ import StockList from './components/StockList';
 import Footer from './components/Footer';
 import MostActiveStocks from './components/MostActiveStocks';
 import MostActiveList from './components/MostActiveList';
+import { AppBar, ButtonGroup, ListItemButton, ListItemText, styled, Toolbar } from '@mui/material';
 
+const StyledToolbar = styled(Toolbar)({
+   backgroundColor:'#1C52A3',
+   display: 'flex',
+   justifyContent:'center',
+  
+})
 
 function App() {
   return (
-    <div className="App">
-      <div className='links'>
+    <>
+    <AppBar position='sticky'>
+      <StyledToolbar>
         {/* 'NavLink' links your pages. */}
         <nav>
-          <NavLink to={"/"} >Home</NavLink>
-          <NavLink to={"/search"} >Search for Stocks</NavLink>
-          <NavLink to={"/random"} > Show Random Stock</NavLink>
-          <NavLink to={"/mostactive"} >Most Active Stocks</NavLink>
+        <ButtonGroup >
+          <NavLink to={"/"} style={{ textDecoration: "none" }}>
+            <ListItemButton>
+             <ListItemText> Home </ListItemText>
+            </ListItemButton>
+          </NavLink>
+          <NavLink to={"/search"} style={{ textDecoration: "none" }}>
+              <ListItemButton>
+             <ListItemText> search for stocks </ListItemText>
+            </ListItemButton>
+          </NavLink>
+          <NavLink to={"/random"} style={{ textDecoration: "none" }}> 
+          <ListItemButton>
+             <ListItemText> show random stock </ListItemText>
+            </ListItemButton>
+          </NavLink>
+          <NavLink to={"/mostactive"} style={{ textDecoration: "none" }}>
+            <ListItemButton>
+             <ListItemText> most active stock </ListItemText>
+            </ListItemButton>
+          </NavLink>
+          </ButtonGroup>
         </nav>  
-      </div>
+        </StyledToolbar>
+     </AppBar>
 
       <div>
       {/* // 'Routes' renders your pages. */}
@@ -34,10 +61,13 @@ function App() {
         <Route path='mostactive' element={<MostActiveStocks /> } />
       </Routes>
       </div>
-      <div className='Footer'>
+    
+      {/* <div className='Footer'> */}
         <Footer />
-      </div>
-    </div>
+      {/* </div> */}
+      
+      </>
+    
   );
 }
 
