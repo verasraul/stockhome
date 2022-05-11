@@ -26,7 +26,7 @@ export default function StockList(props){
           </div>
                 <h3>Opening Price: { stock.open }</h3>
                 <h3>Calculation Price: { stock.calculationPrice}</h3>
-                <div className='open-price' style={{backgroundColor:backGroundColor(stock.open)}}>
+                <div className='open-price' style={{backgroundColor:backGroundColor(stock.latestPrice)}}>
                   <p>Last Price($): { stock.latestPrice }</p>
                 </div>
                 <br></br>
