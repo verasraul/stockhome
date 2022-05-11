@@ -1,6 +1,4 @@
 
-
-
 export default function StockList(props){
   console.log('StockListprops=', props)
 
@@ -34,4 +32,4 @@ export default function StockList(props){
         </div>
       </div>
     )
-  }
+  } 

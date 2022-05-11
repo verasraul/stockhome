@@ -16,14 +16,17 @@ export default function MostActiveList(props){
 
 
     return(
-        <div className="stock-info">
-            <div className="price">
+        <div>
+            
             { stocks.map((stock) => {
                 return (
-                    <div>
+                    <div className="stock-info">
+                        <div className="price">
                         <div className="name">
-                            <h1>{ stock.companyName} {stock.symbol} </h1>
+                            <h1>{ stock.companyName} </h1>
+                            <h1>{stock.symbol} </h1>
                         </div>
+                        
                         <h3>Opening Price: { stock.open}</h3>
                         <h3>Calculation Price: { stock.calculationPrice } </h3>
                         {/* <br></br> */}
@@ -34,10 +37,11 @@ export default function MostActiveList(props){
                         <div className="up-down" style={{backGroundColor:backGroundColor(stock.changePercent)}}>
                             <p>Change Percentage(%): { stock.changePercent } </p>
                         </div>
+                        </div>
                     </div>
                 );
             })}
-            </div>
+            
         </div>
     )
 }
