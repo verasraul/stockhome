@@ -161,7 +161,6 @@ justify-content: center;
 width: 50%;
 padding-bottom:2px;
 }
-
 .title{
 background-color:black;
 Padding-left:10px;
@@ -180,6 +179,8 @@ border: 1px solid blue;
 margin: 10px;
 padding:20px;
 color: white;
+
+
 }
 .name{
 margin: auto;
@@ -187,6 +188,14 @@ margin: auto;
 
 .price{
 margin: auto;
+
+ /* side scroll feature */
+ /* display: flex;
+ flex-wrap: nowrap;
+ overflow-x: auto;
+   .search-results-items {
+     flex: 0 0 auto;
+   } */
 }
 .up-down{
 padding:1px;

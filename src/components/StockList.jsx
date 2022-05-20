@@ -1,7 +1,5 @@
 import { Box } from "@mui/material"
 
-
-
 export default function StockList(props){
   console.log('StockListprops=', props)
 
@@ -37,4 +35,4 @@ export default function StockList(props){
       </div>
       </Box>
     )
-  }
+  } 

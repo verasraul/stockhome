@@ -25,6 +25,7 @@ export default function MostActiveList(props){
 
 
     return(
+
         <Box >
             {stock}
         {/* <div className="stock-info" style={{width:'40%'}}>
@@ -35,6 +36,7 @@ export default function MostActiveList(props){
                         <div className="name" >
                             <h1>{ stock.companyName} {stock.symbol} </h1>
                         </div>
+                        
                         <h3>Opening Price: { stock.open}</h3>
                         <h3 style={{marginBottom:'10px'}}>Calculation Price: { stock.calculationPrice } </h3>
                         
@@ -54,5 +56,6 @@ export default function MostActiveList(props){
         </div> */}
         
         </Box>
+
     )
 }
