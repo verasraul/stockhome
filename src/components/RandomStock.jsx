@@ -1,8 +1,14 @@
 import { useState, useEffect } from 'react';
 import StockList from './StockList';
 import { Symbols, Search } from '../services/Constants';
+import { Box, Button, styled } from '@mui/material';
 
-
+const StyledContainer = styled(Box)({
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent:'center',
+  marginTop:'9em'
+})
 
 export default function RandomStock(){
     const [stocks, setStocks] = useState([])
@@ -42,14 +48,22 @@ export default function RandomStock(){
     
 
     return(
+      
+      <StyledContainer>
+          <Box sx={{display: 'flex',justifyContent:'center',marginBottom:'40px'}}>
           <div className='random'>
             <h1>Generate a Random Ticker</h1>
           <br></br>
-          <button onClick={handleButton}
-          > Generate Random Stock
-          </button>
-          <StockList stock={stocks} />
-        </div>
+          <Button variant='outline' color='gray' sx={{marginLeft:'5em'}} onClick={handleButton}> 
+          Generate Random Stock
+          </Button>
+          </div>
+          </Box>
+      
+          <StockList stock={stocks}  />
+        
+        </StyledContainer>
+      
     )
 }
 

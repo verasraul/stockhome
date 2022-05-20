@@ -20,7 +20,7 @@ export default function MostActiveStocks() {
     }
     useEffect( () => {
         fetchMostActiveStocks();
-    }, [])
+    }, []);
 
 
 

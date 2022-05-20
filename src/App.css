@@ -3,7 +3,9 @@
   padding: 0px;
   box-sizing: border-box;
 } */
-
+* a{
+  color:white
+}
 .App {
   text-align: center;
   justify-content: center;

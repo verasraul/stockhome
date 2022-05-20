@@ -1,3 +1,4 @@
+import { Box } from "@mui/material"
 
 export default function StockList(props){
   console.log('StockListprops=', props)
@@ -13,7 +14,8 @@ export default function StockList(props){
   const stock = props.stock
 
     return (
-      <div className="stock-info"> 
+      <Box sx={{display:"flex",justifyContent:'center'}}>
+      <div className="stock-info" style={{width:'40%'}}> 
     
 
         <div className="price">
@@ -22,7 +24,7 @@ export default function StockList(props){
           </div>
                 <h3>Opening Price: { stock.open }</h3>
                 <h3>Calculation Price: { stock.calculationPrice}</h3>
-                <div className='open-price' style={{backgroundColor:backGroundColor(stock.open)}}>
+                <div className='open-price' style={{backgroundColor:backGroundColor(stock.latestPrice)}}>
                   <p>Last Price($): { stock.latestPrice }</p>
                 </div>
                 <br></br>
@@ -31,5 +33,6 @@ export default function StockList(props){
                 </div>
         </div>
       </div>
+      </Box>
     )
   } 
