@@ -8,14 +8,14 @@ export default function SearchPage(){
     // inittialize the ticker list to the full list passed in props
     const [stockSearch, setStockSearch] = useState([])
     const [stockName, setStockName] = useState('')
-    console.log('stockName =', stockName)
+    // console.log('stockName =', stockName)
 
     const fetchData = async (event) => {
       // event.preventDefault();
         try {
           const response = await Search(event);
           setStockSearch(response);
-          console.log('setStockSearch=', setStockSearch);
+          // console.log('setStockSearch=', setStockSearch);
         } catch (error) {
           console.log(error);
         }
@@ -68,7 +68,7 @@ export default function SearchPage(){
             <br></br>
             <br></br>
               <form>
-              <input type="text" value={stockName} onChange={event => handleStockChange(event.target.value)} id="search-pane-input" placeholder="Ticker name (fb, ibm, etc.)"/>
+              <input type="text" value={stockName} onChange={event => handleStockChange(event.target.value)} id="search-pane-input" placeholder="Ticker name (fb, ibm, etc.)" />
             {/* <div className="button-div">
               <button type="submit" >Search Ticker</button>
             </div> */}
